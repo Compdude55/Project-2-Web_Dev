@@ -1,6 +1,100 @@
 #main-header {
 	background: pink;
-	color-text: darkblue;
+	color: darkblue;
 	text-align: center;
 }
 
+#main-header #first website-name {
+	float: left;
+	margin-top: 25px;
+	font-family: "Times New Roman", sarif;
+	font-size: 25px
+	color: white;
+}
+
+#header-container {
+	position: relative;
+}
+
+.container {
+	width: 100%;
+	overflow: hidden;
+}
+
+#second-nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+#second-nav li {
+	float: left;
+}
+
+#second-nav li a {
+	color: #fff;
+  font-size: 0.8em;
+	text-decoration: none;
+	margin: 0 10px;
+}
+
+#second-nav li a:hover {
+	text-decoration: underline;
+}
+
+
+#main-navbar {
+	background-color: blue;
+}
+
+#navbar-container {
+	text-align: center;
+}
+
+#main-navbar {
+	overflow: hidden;
+}
+
+#main-navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#main-navbar ul li {
+	float: left;
+}
+
+#main-navbar ul li a {
+	display: block;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+}
+
+#main-navbar ul li a:hover {
+	background-color: #000;
+}
+
+#content-wrapper {
+	background-color: maroon;
+}
+
+#main-content {
+  font-family: electra;
+  color: white;
+  font-size: 1.2em;
+  padding:5px;
+}
+
+#sidebar {
+  font-family: electra;
+  color: white;
+  font-size: 0.8em;
+  padding:5px;
+}
