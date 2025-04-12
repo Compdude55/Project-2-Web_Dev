@@ -9,7 +9,6 @@
 	margin-top: 25px;
 	font-family: "Times New Roman", sarif;
 	font-size: 25px
-	color: white;
 }
 
 #header-container {
@@ -74,6 +73,9 @@
 	display: block;
 	padding: 10px 20px;
 	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
 	text-decoration: none;
 }
 
