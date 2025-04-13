@@ -80,7 +80,8 @@
 }
 
 #main-navbar ul li a:hover {
-	background-color: pink;
+	background-color: orange;
+	text-decoration: underline;
 }
 
 #content-wrapper {
